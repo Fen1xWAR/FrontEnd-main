@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="csslogo.png" type="image/png">
+    <link rel="stylesheet" href="lightTheme.css" id="themeLink">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet" type="text/css">
+</head>
+<body onload="loadTheme()">
+<div class="wrapper">
+    <header class="header">
+        <div class="headerContent">
+            <img class="logo" onclick="location.href='Main.html'" title="Главная" src="csslogo.png" alt="Тут картинка">
+            <nav class="navigation">
+                <p class="links links-target" onclick="location.href='Main.html'">Главная</p>
+                <p class="links" onclick="location.href='Index.html'">Контакты</p>
+            </nav>
+            <button onclick="themeChange()" class="btn">Тема</button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="profile">
+            <div id="profile">
+                <div class="avatar"></div>
+                <div class="name">
+                    <div id="name">
+                        <h1>Как меня зовут:</h1>
+                        <b><h2>Прохорцев Андрей</h2></b>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container" name="hobby">
+                <strong><h2>Хобби</h2></strong>
+                <ul class="hobbiesList">
+                    <li>Бегит</li>
+                    <li>Комп играт</li>
+                    <li>Пресс качат</li>
+                    <li>ВПН Включать</li>
+                </ul>
+
+            </div>
+
+            <div class="container" name="gender">
+                <form action="">
+                    <div class="gender-selector">
+                        <strong><h2>Гендер</h2></strong>
+                        <input type="radio" disabled name="RadioGender">Мужчина<br>
+                        <input type="radio" disabled name="RadioGender">Женщина<br>
+                        <input type="radio" name="RadioGender" checked>Боевой вертолет МИ-28<br>
+                    </div>
+                </form>
+            </div>
+            <div class="container">
+                <strong><h2>Метро Люблино, работаем!</h2></strong>
+            </div>
+            <div class="container" id="photo" name="photo">
+                <img style="cursor: pointer" src="Lublino.png" title="Жмав" alt="Тут лучший район мира"
+                     onclick="location.href='https://ru.wikipedia.org/wiki/%D0%9B%D1%8E%D0%B1%D0%BB%D0%B8%D0%BD%D0%BE_(%D1%80%D0%B0%D0%B9%D0%BE%D0%BD_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B)'"
+                     width="340" height="340">
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="copyright">&#169; Fen1x 2023 год</div>
+    </footer>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="csslogo.png" type="image/png">
+    <link rel="stylesheet" href="lightTheme.css" id="themeLink">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet" type="text/css">
+    <title>Контакты</title>
+</head>
+<body onload="loadTheme()">
+<div class="wrapper">
+    <header class="header">
+        <div class="headerContent">
+            <img class="logo" onclick="location.href='Main.html'" title="Главная" src="csslogo.png" alt="Тут картинка">
+            <nav class="navigation">
+                <p class="links" onclick="location.href='Main.html'">Главная</p>
+                <p class="links links-target" onclick="location.href='Index.html'">Контакты</p>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="profile">
+            <div class="container">
+                <strong><h2>Мои контакты:</h2></strong>
+            </div>
+            <div class="container" name="mobile+email">
+                <h2>Телефон</h2>
+                <p style="text-align: center; line-height: 2em">8926ХХХХХХХ</p>
+                <h2>Email</h2>
+                <p style="text-align: center; line-height: 2em">proxxxx@gmail.com</p>
+
+
+            </div>
+            <div class="container contactContent" name="social">
+                <div name="telegram" class="contactWay">
+                    <img onclick="location.href='https://discordapp.com/users/198021286516097024/ '" class="social"
+                         src="discord.png">
+                    <p class="socialHeader" onclick="location.href='https://discordapp.com/users/198021286516097024/ '">
+                        Discord</p>
+                </div>
+                <div name="telegram" class="contactWay">
+                    <img onclick="location.href='https://t.me/Fen1x'" class="social" src="telegram.png">
+                    <p class="socialHeader" onclick="location.href='https://t.me/Fen1x'">Telegram</p>
+                </div>
+                <div name="telegram" class="contactWay">
+                    <img onclick="location.href='https://vk.com/fen1xwarrion'" class="social" src="vk.png">
+                    <p class="socialHeader" onclick="location.href='https://vk.com/fen1xwarrion'">VK</p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="copyright">&#169; Fen1x 2023 год</div>
+    </footer>
+</div>
+</body>
+</html>

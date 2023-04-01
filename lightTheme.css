@@ -1,0 +1,38 @@
+body {
+    color: white;
+    background-color: white;
+}
+
+.header {
+    background: #6002ee;
+}
+
+.profile {
+    background-color: #ab8ae0;
+}
+
+.name {
+    background-color: #6002ee;
+}
+
+.footer {
+    background: #6002ee;
+}
+
+.avatar {
+    border: 5px #6002ee solid;
+}
+
+.container {
+    background-color: #6002ee;
+}
+
+.btn {
+    background-color: #ab8ae0;
+    color: white;
+    border-color: white;
+}
+
+.btn:hover {
+    background-color: #6002ee;
+}

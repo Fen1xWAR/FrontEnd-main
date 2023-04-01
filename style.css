@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Roboto", serif;
+
+}
+
+.main {
+    flex: 1 1 auto;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 1.5rem;
+    align-content: center;
+
+}
+
+.headerContent {
+    display: flex;
+}
+
+.profile {
+    border-radius: 10px;
+
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+
+
+}
+
+#profile {
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+    align-items: center;
+
+
+}
+
+.name {
+    display: flex;
+    margin-left: 20px;
+    line-height: 2em;
+
+    height: 350px;
+    width: 100%;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: center;
+
+
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 350px;
+    text-align: center;
+    line-height: 4rem;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.logo {
+    max-height: 100px;
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+.navigation {
+    display: flex;
+    margin: 1rem;
+    line-height: 5em;
+}
+
+.links {
+    margin-right: 20px;
+    font-size: 2rem;
+}
+
+.links-target {
+    font-weight: 1000;
+}
+
+.links:hover {
+    cursor: pointer;
+    font-weight: 1000;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    height: 100%;
+
+    font-size: 1.3rem;
+    justify-content: right;
+}
+
+.copyright {
+    margin: 10px;
+}
+
+.avatar {
+    border-radius: 10px;
+
+    width: 345px;
+    height: 345px;
+    background-image: url("avatar.png");
+    background-repeat: no-repeat;
+    background-position: -130px 0;
+    flex-shrink: 0;
+
+}
+
+.container {
+
+    margin: 10px;
+
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+.hobbiesList {
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 1.3em;
+}
+
+#photo {
+    display: flex;
+    justify-content: center;
+}
+
+.contactContent {
+    display: flex;
+    justify-content: center;
+}
+
+.contactWay {
+    margin: 10px;
+    text-align: center;
+}
+
+.social {
+    border-radius: 20px;
+    width: 285px;
+    height: 230px;
+    cursor: pointer;
+}
+
+.socialHeader {
+    font-size: 1.5rem;
+}
+
+.socialHeader:hover {
+    font-weight: 1000;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btn {
+    position: absolute;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    top: 2.5em;
+    right: 1em;
+    font-size: 1.3rem;
+}
+
